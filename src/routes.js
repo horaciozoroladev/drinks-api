@@ -8,7 +8,7 @@ router
     .use(express.json())
     .use(express.urlencoded({ extended: true }))
 
-    .use('/api/bebidas', drinksRoute)
+    .use('/api/drinks', drinksRoute)
     .use('/api/auth', authRoute);
 
 module.exports = router;
