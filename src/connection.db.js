@@ -4,7 +4,8 @@ function connection() {
     const database = createConnection({
         host: 'localhost',
         user: 'root',
-        password: '',
+        password: '12345',
+        port: '3306',
         database: 'drinks_api',
         multipleStatements: true,
         supportBigNumbers: true,
