@@ -15,6 +15,7 @@ Type on a terminal the next commands:
 
 1. **Authorization** 
 [api/auth/](http://localhost:3000/api/auth/)
+
     1.1 [api/auth/login](http://localhost:3000/api/auth/login/)
     - Method: POST
     - Body: { username: "", pass: "" }
@@ -29,6 +30,7 @@ Type on a terminal the next commands:
 
 2. **Drinks**
 [api/drinks/](http://localhost:3000/api/drinks/)
+
    2.1 [api/drinks/random](http://localhost:3000/api/drinks/random)
     - Method: GET
     - Accept: application/json
@@ -46,6 +48,7 @@ Type on a terminal the next commands:
     - Accept: application/json
 3. **Users**
 [api/users/](http://localhost:3000/api/users/)
+
     3.1 [api/users/create](http://localhost:3000/api/users/create)
     - Method: POST  
     - Body: { givenname: "", surname: "", username: "", pass: "" }
