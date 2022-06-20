@@ -17,6 +17,6 @@
     "start:dev": "nodemon ./src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "horaciozoroladev",
   "license": "ISC"
 }
