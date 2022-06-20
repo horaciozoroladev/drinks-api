@@ -32,7 +32,7 @@ router.post('/create', async (req, res) => {
 });
 
 
-router.get('/info', async (req, res) => {
+router.post('/info', async (req, res) => {
 
     const db = connection();
     const dbQuery = util.promisify(db.query).bind(db);
