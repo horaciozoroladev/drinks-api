@@ -15,7 +15,7 @@ router.post('/create', async (req, res) => {
 
     const user = req.body;
 
-    const insert_users = `insert into users set _id = uuid(), givenname = "${user.givenname}", lastname = "${user.surname}", username = "${user.username}", pass = "${_btoa(user.pass)}"`;
+    const insert_users = `insert into users set _id = uuid(), givenname = "${user.givenname}", surname = "${user.surname}", username = "${user.username}", pass = "${_btoa(user.pass)}"`;
 
     const result_insert_users = await dbQuery(insert_users);
 
